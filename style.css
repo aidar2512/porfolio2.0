@@ -1,0 +1,238 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #222;
+        color: #fff;
+        font-size: 16px;
+    }
+    #header{
+        width: 100%;
+        height: 80vh;
+        background-color: #111;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo{
+        color: #fff;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        cursor: pointer;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 20px;
+    }
+    nav ul li{
+        margin: 0 15px;
+    }
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: color 0.3s ease;
+    }
+    nav ul li a:hover{
+        color: #FF5733;
+    }
+    .content{
+        padding: 50px;
+        text-align: center;
+    }
+    h1{
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    .button{
+        background-color: #FF704D;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 8px 23px;
+        border-radius: 30px;
+    }
+    .button:hover{
+        background-color: #FF704D;
+    }
+    #about{
+        padding: 100px 0;
+        background-color: #111;
+    }
+    .text{
+        margin: auto;
+        max-width: 800px;
+        text-align: center;
+    }
+    .text h2{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .text h5{
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+    .text p{
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 45px;
+    }
+    #resume {
+        padding: 100px ;
+        background-color: #222;
+        color: #fff;
+    }
+    #resume h2 {
+        padding-bottom: 50px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .wid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .block1, .block2, .block3, .block4 {
+        flex: 1;
+        text-align: center;
+        background-color: #333;
+        padding: 30px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .block1:hover, .block2:hover, .block3:hover, .block4:hover {
+        transform: translateY(-10px);
+    }
+    .block1 h4, .block2 h4, .block3 h4, .block4 h4 {
+        font-size: 2rem;
+        color: #FF5733;
+        margin-bottom: 20px;
+    }
+    .block1 p, .block2 p, .block3 p, .block4 p {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    #projects {
+        text-align: center;
+        padding: 100px 0;
+        background-color: #111;
+        color: #fff;
+    }
+    .project {
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .project:hover {
+        transform: translateY(-10px);
+    }
+    .project h3 {
+        font-size: 2rem;
+        color: #FF5733;
+        margin-bottom: 10px;
+    }
+    .project p {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .project a {
+        display: inline-block;
+        background-color: #FF5733;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+    .project a:hover {
+        background-color: #FF704D;
+    }
+    #contact {
+        padding: 100px 0;
+        background-color: #222;
+        color: #fff;
+    }
+    #contact h2 {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .contact-intro {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .contact-list {
+        text-align: center;
+    }
+    .contact-list li {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+    .contact-link {
+        color: #FF5733;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .contact-link:hover {
+        color: #FF704D;
+    }
+    .foot{
+        padding: 50px 0;
+        font-size: 1rem;
+        color: #fff;
+        text-align: center;
+        background-color: #111;
+    }
+    #gallery{
+        padding: 100px 0;
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+    }
+    #gallery h2{
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    .photo img {
+        border: 3px solid #77AEE9;
+        margin: 10px;
+        width: 200px; /* Замените 200px на желаемую ширину */
+        height: 200px; /* Замените 200px на желаемую высоту */
+        object-fit: cover; /* Масштабировать изображение так, чтобы оно полностью заполняло указанные размеры */
+    }
+    .photo1 img {
+        border: 3px solid #77AEE9;
+        margin: 50px;
+        width: 400px; /* Замените 200px на желаемую ширину */
+        height: 400px; /* Замените 200px на желаемую высоту */
+        object-fit: cover; /* Масштабировать изображение так, чтобы оно полностью заполняло указанные размеры */
+    }    
+    .logo1 {
+        margin-left: 630px; /* Или любое другое значение, которое подходит вам */
+        color: #fff;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        cursor: pointer;
+    }
